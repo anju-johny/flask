@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extracted Frames</title>
+</head>
+<body>
+    <h1>Extracted Frames</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Frame</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for sframe in fr %}
+            <tr>
+                <td><img src="{sframes}"></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
